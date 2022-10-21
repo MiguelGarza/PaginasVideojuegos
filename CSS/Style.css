@@ -1,0 +1,329 @@
+/* ESTA HOJA DE ESTILO ME VA A YUDAR A DARLE EL FORMATO A MI 
+	ARCHIVO HTML.
+	AUTOR: MIGUEL ALBERTO GARZA QUIÑONES */
+	
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LA IMAGEN Y ESTILOS DE LA PAGINA 1 */
+/*-------------------------------*/
+BODY.FONDO1{
+	BACKGROUND-IMAGE:URL(../Media/space-invaders-minimalism-video-games-retro-games-wallpaper-preview.JPG);
+	/*IMAGEN DE FONDO DE LA PAGINA 1*/
+	BACKGROUND-ATTACHMENT: FIXED;
+	BACKGROUND-SIZE: 85%;
+	WIDTH: 80%;
+	MARGIN: AUTO;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LA IMAGEN Y ESTILOS DE LA PAGINA 2 */
+/*-------------------------------*/
+BODY.FONDO2{
+	BACKGROUND-IMAGE:URL(../Media/26562.JPG);
+	/*IMAGEN DE FONDO DE LA PAGINA 2*/
+	BACKGROUND-ATTACHMENT: FIXED;
+	BACKGROUND-SIZE: 85%;
+	WIDTH: 80%;
+	MARGIN: AUTO;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LA IMAGEN Y ESTILOS DE LA PAGINA 3 */
+/*-------------------------------*/
+BODY.FONDO3{
+	BACKGROUND-IMAGE:URL(../Media/FONDO3.JPG);
+	/*IMAGEN DE FONDO DE LA PAGINA 3*/
+	BACKGROUND-ATTACHMENT: FIXED;
+	BACKGROUND-SIZE: 15%;
+	WIDTH: 80%;
+	BACKGROUND-REPEAT: REPEAT;
+	MARGIN: AUTO;
+}
+/*-------------------------------*/
+/*CREACION DE LA ANIMACION LLAMADA TITULO*/
+/*-------------------------------*/
+@keyframes TITULO {
+  0%   {BACKGROUND-COLOR: RED;}
+  25%  {BACKGROUND-COLOR: YELLOW;}
+  50%  {BACKGROUND-COLOR: GREEN;}
+  75%  {BACKGROUND-COLOR: #4EC5FB;}
+  100% {BACKGROUND-COLOR: RED;}
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LAS CONFIGURACION DEL TITULO DE LA PAGINA 1*/
+/*-------------------------------*/
+P.TITULO{
+	/*tipo de letra */
+	FONT-FAMILY: Stencil;
+	/*TAMAÑO DE LETRA */	
+	FONT-SIZE:250%;
+	/*MARGEN DOBLE */
+	BORDER-STYLE:DOUBLE;
+	/*COLOR DEL BORDER */
+	BORDER-COLOR: BLACK;
+	/*COLOR DE LETRA*/
+	COLOR:BLACK;
+	/*TITULO CENTRADO*/
+	TEXT-ALIGN: CENTER;
+	/*RADIO DEL BORDE*/
+	BORDER-RADIUS: 20PX;
+	/*COLOR DEL FONDO*/
+	BACKGROUND-COLOR: RED;
+	/*TOMA EL NOMBRE DE LA ANIMACION*/
+	ANIMATION-NAME: TITULO;
+	/*DURACION DE LA ANIMACION*/
+	ANIMATION-DURATION: 10s;
+	/*PARA QUE LA ANIMACION SE REPITA INFINITAMENTE*/
+	ANIMATION-ITERATION-COUNT: INFINITE;
+	/*TAMAÑO DEL RECUADRO*/
+	WIDTH: 1000px;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LAS CONFIGURACION DEL TITULO DE LA PAGINA 2*/
+/*-------------------------------*/
+P.TITULO2{
+	/*tipo de letra */
+	FONT-FAMILY: Stencil; 
+	/*TAMAÑO DE LETRA */	
+	FONT-SIZE:250%;
+	/*MARGEN DOBLE */
+	BORDER-STYLE:DOUBLE;
+	/*COLOR DEL BORDER */
+	BORDER-COLOR: BLACK;
+	/*COLOR DE LETRA*/
+	COLOR:BLACK;
+	/*TITULO CENTRADO*/
+	TEXT-ALIGN: CENTER;
+	/*RADIO DEL BORDE*/
+	BORDER-RADIUS: 20PX;
+	/*COLOR DEL FONDO*/
+	BACKGROUND-COLOR: #538AF4;
+	/*TAMAÑO DEL RECUADRO*/
+	WIDTH: 1000px;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LAS CONFIGURACION DEL TITULO DE LA PAGINA 3*/
+/*-------------------------------*/
+P.TITULO3{
+	/*tipo de letra */
+	FONT-FAMILY: Stencil;
+	/*TAMAÑO DE LETRA */	
+	FONT-SIZE:250%;
+	/*MARGEN DOBLE */
+	BORDER-STYLE:DOUBLE;
+	/*COLOR DEL BORDER */
+	BORDER-COLOR: BLACK;
+	/*COLOR DE LETRA*/
+	COLOR:BLACK;
+	/*TITULO CENTRADO*/
+	TEXT-ALIGN: CENTER;
+	/*RADIO DEL BORDE*/
+	BORDER-RADIUS: 20PX;
+	/*COLOR DEL FONDO*/
+	BACKGROUND-IMAGE:URL(../Media/gamepad-seamless-texture-video-game-600w-690756187.JPG);
+	BACKGROUND-SIZE: 20%;
+	/*TAMAÑO DEL RECUADRO*/
+	WIDTH: 1000px;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LAS CONFIGURACION DE LETRA DEL TEXTO DE LA PAGINA 1 */
+/*-------------------------------*/
+FONT.TEXTO1{
+		FONT-FAMILY:"GLUTEN", CURSIVE;
+		COLOR: WHITE;
+		TEXT-ALIGN: JUSTIFY;
+		FONT-FAMILY: Comic Sans MS;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LAS CONFIGURACION DE LETRA DE LA PAGINA 2 Y 3 */
+/*-------------------------------*/
+FONT.TEXTO2{
+		FONT-FAMILY:"GLUTEN", CURSIVE;
+		TEXT-ALIGN: JUSTIFY;
+		FONT-FAMILY: Comic Sans MS;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LAS CONFIGURACION DE LOS SUBTITULOS DE LA PAGINA 1 */
+/*-------------------------------*/
+FONT.SUB1{
+		COLOR: WHITE;
+		FONT-FAMILY: Cooper Black;
+		FONT-SIZE:150%;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LAS CONFIGURACION DE LOS SUBTITULOS DE LA PAGINA 2 Y 3 */
+/*-------------------------------*/
+FONT.SUB2{
+		COLOR: BLACK;
+		TEXT-ALIGN: CENTER;
+		FONT-FAMILY: Cooper Black;
+		FONT-SIZE:150%;
+}
+/*-------------------------------*/
+/*CONTENIDO PARA ENGLOBAR EL TEXTO A LA IZQUIERDA*/
+/*-------------------------------*/
+DIV.TIZQ{
+	WIDTH:74%;
+	HEIGHT:100%;
+	FLOAT:LEFT;
+	DISPLAY:INLINE-BLOCK;
+	MARGIN:0;
+	PADDING:0;
+}
+/*-------------------------------*/
+/*CONTENIDO PARA ENGLOBAR LA IMAGEN A LA DERCHA*/
+/*-------------------------------*/
+
+DIV.IDER{
+	WIDTH:24%;
+	HEIGHT:100%;
+	FLOAT:RIGHT;
+	DISPLAY:INLINE-BLOCK;
+	MARGIN:0;
+	PADDING:0;
+}
+/*-------------------------------*/
+/*CONTENIDO PARA ENGLOBAR LA IMAGEN A LA IZQUIERDA*/
+/*-------------------------------*/
+DIV.IIZQ{
+	WIDTH:20%;
+	HEIGHT:100%;
+	FLOAT:LEFT;
+	DISPLAY:INLINE-BLOCK;
+	MARGIN:0;
+	PADDING:0;
+}
+
+/*-------------------------------*/
+/*CONTENIDO PARA ENGLOBAR EL TEXTO A LA DERCHA*/
+/*-------------------------------*/
+DIV.TDER{
+	WIDTH:80%;
+	HEIGHT:100%;
+	FLOAT:RIGHT;
+	DISPLAY:INLINE-BLOCK;
+	MARGIN:0;
+	PADDING:0;
+}
+/*-------------------------------*/
+/*CONTENIDO PARA ENGLOBAR EL CONTENIDO QUE ABARQUE TODA LA PAGINA*/
+/*-------------------------------*/
+DIV.CENT{
+	WIDTH:100%;
+	HEIGHT:100%;
+	FLOAT:RIGHT;
+	DISPLAY:INLINE-BLOCK;
+	MARGIN:0;
+	PADDING:0;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LAS IMAGENES DE DIFERENTES TAMAÑOS*/
+/*-------------------------------*/
+/*IMAGEN MAS CHICA*/
+IMG.IMGSUPCHICA{
+	WIDTH:25PX;
+	display: block;
+	MARGIN:AUTO;
+}
+/*IMAGEN CHICA*/
+IMG.IMGCHICA{
+	WIDTH:120PX;
+	display: block;
+	MARGIN:AUTO;
+}
+/*IMAGEN GRANDE*/
+IMG.IMGGRANDE{
+	WIDTH:500PX;
+	display: block;
+	MARGIN:AUTO;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LOS BOTONES*/
+/*-------------------------------*/
+A.BOTON{
+	/*QUITAR EL ESTILO DEL ENLACE*/
+	TEXT-DECORATION:NONE;
+	/*DAR CUERPO TIPO NEGRITA AL TEXTO DEL BOTON*/
+	FONT-WEIGHT:600;
+	/*TAMAÑO DEL TEXTO*/
+	FONT-SIZE:20PX;
+	/*COLOR DEL TEXTO*/
+	COLOR:#FFFFFF;
+	/*RELLENO SUPERIOR DEL BOTON*/
+	PADDING-TOP:20PX;
+	/*RELLENO INFERIOR DEL BOTON*/
+	PADDING-BOTTOM: 20PX;
+	/*RELLENO IZQUIERDO*/
+	PADDING-LEFT:40PX;
+	/*RELLENO DERECHO*/
+	PADDING-RIGHT:40PX;
+	/*COLOR DEL BOTON*/
+	BACKGROUND-COLOR:#005BBB;
+	/*COLOR DEL BORDE*/	
+	BORDER-COLOR:#FFFFFF;
+	/*ANCHURA DEL BORDE*/
+	BORDER-WIDTH:3PX;
+	/*ESTILO DEL BORDE*/
+	BORDER-STYLE:SOLID;
+	/*REDONDEO DEL BOTON*/
+	BORDER-RADIUS:35PX;
+}
+
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE EL FONDO SEMI OPACO*/
+/*-------------------------------*/
+DIV.DFONDO {
+   width: 1000px; 
+   height: 2000PX;
+   background-color: #FFFFFF;
+   filter:alpha(opacity=20);
+   -moz-opacity:0.2;
+   /*ESTO CONTROLA LA OPACACIDAD O TRANSPARENCIA, A MENOR NUMERO MAS TRANSPARENTE Y VISEVERSA*/
+   opacity: 0.7;
+   padding:10px;
+   BORDER-RADIUS: 20PX;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE EL FONDO SEMI OPACO PARA LA PAGINA 3*/
+/*-------------------------------*/
+DIV.DFONDO2 {
+   width: 1000px; 
+   height: 2570PX;
+   background-color:#FFFFFF;
+   filter:alpha(opacity=20);
+   -moz-opacity:0.2;
+   /*ESTO CONTROLA LA OPACACIDAD O TRANSPARENCIA, A MENOR NUMERO MAS TRANSPARENTE Y VISEVERSA*/
+   opacity: 0.9;
+   padding:10px;
+   BORDER-RADIUS: 20PX;
+}
+/*-------------------------------*/
+/* ESTE BLOQUE CONTIENE LA LETRA QUE CONTRASTA CON EL FONDO OPACO*/
+/*-------------------------------*/
+DIV.DTEXTO {
+   width: 980px;
+   background-color: transparent;
+   position: absolute;
+   z-index: 2;
+   padding:10px;  
+}
+/*-------------------------------*/
+/*CONTENIDO PARA ENGLOBAR LA IMAGEN A LA IZQUIERDA EN LAS LISTAS*/
+/*-------------------------------*/
+DIV.IIZQLIS{
+	WIDTH:10%;
+	HEIGHT:100%;
+	FLOAT:LEFT;
+	DISPLAY:INLINE-BLOCK;
+	MARGIN:0;
+	PADDING:0;
+}
+
+/*-------------------------------*/
+/*CONTENIDO PARA ENGLOBAR EL TEXTO A LA DERCHA EN LAS LISTAS*/
+/*-------------------------------*/
+DIV.TDERLIS{
+	WIDTH:90%;
+	HEIGHT:100%;
+	FLOAT:RIGHT;
+	DISPLAY:INLINE-BLOCK;
+	MARGIN:0;
+	PADDING:0;
+}
