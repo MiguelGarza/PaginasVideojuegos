@@ -40,10 +40,10 @@ BODY.FONDO3{
 /*CREACION DE LA ANIMACION LLAMADA TITULO*/
 /*-------------------------------*/
 @keyframes TITULO {
-  0%   {BACKGROUND-COLOR: RED;}
-  25%  {BACKGROUND-COLOR: YELLOW;}
-  50%  {BACKGROUND-COLOR: GREEN;}
-  75%  {BACKGROUND-COLOR: #4EC5FB;}
+  0%   {BACKGROUND-COLOR: rgb(179, 255, 0);}
+  25%  {BACKGROUND-COLOR: rgb(0, 255, 85);}
+  50%  {BACKGROUND-COLOR: rgb(0, 2, 128);}
+  75%  {BACKGROUND-COLOR: #fb4eed;}
   100% {BACKGROUND-COLOR: RED;}
 }
 /*-------------------------------*/
